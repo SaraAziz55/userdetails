@@ -59,10 +59,7 @@ function gettime(){
 <html>
      <head>
   <meta charset="UTF-8">
-  <title>HackerRahul | Get User Details!</title>
-  <meta name="description" content="HackerRahul Test Website">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="HackerRahul.com">
+  <title>Get User Details!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
 <body>
@@ -71,7 +68,7 @@ function gettime(){
     	echo "<pre>";
     	print_r($data);
     	
-    	echo "<b>User Time and Date according to Timezone: </b>".gettime();
+    	echo "<b>Time and Date according to Timezone: </b>".gettime();
         // echo time according to timezone.
     ?>
 </body>
